@@ -9,7 +9,7 @@ import { Mail, Phone, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact | " + siteConfig.name,
-  description: "Get in touch to discuss how professional virtual assistant services can streamline your optometry practice.",
+  description: "Get in touch to discuss how professional virtual assistant services can streamline your optometry practice with expert support.",
 };
 
 export default function ContactPage() {
@@ -17,7 +17,7 @@ export default function ContactPage() {
     <PageLayout>
       <Hero
         title="Let's Connect"
-        description="Ready to enhance your optometry practice with professional virtual assistant support? I'd love to hear from you."
+        description="Ready to enhance your optometry practice with professional virtual assistant support from a licensed optometrist? I'd love to discuss how I can help."
         variant="center"
       />
 

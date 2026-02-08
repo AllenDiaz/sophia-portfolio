@@ -4,16 +4,17 @@
  */
 
 export const siteConfig = {
-  name: "Dr. Sophia Gonzales",
-  title: "Dr. Sophia Gonzales | Virtual Optometry Assistant Services",
-  description: "Professional virtual assistant services specializing in optometry practice management, patient care coordination, and administrative support.",
+  name: "Dr. Sophia Joy Gonzales",
+  title: "Dr. Sophia Joy Gonzales | Licensed Optometrist & Virtual Practice Assistant",
+  description: "Licensed Optometrist offering professional virtual assistant services for optometry practices. Combining clinical expertise with practice management skills to streamline administrative operations and patient care coordination.",
   tagline: "Your Vision, My Mission",
   
   // Contact information
   contact: {
     email: "sjgonzales.opto@gmail.com",
-    phone: "(555) 123-4567",
-    hours: "Monday - Friday: 9:00 AM - 5:00 PM PST",
+    phone: "+63 975-890-3753",
+    hours: "Monday - Saturday: 9:00 AM - 7:00 PM PHT",
+    location: "Valenzuela City, Metro Manila, Philippines",
   },
   
   // Social links (optional)
@@ -76,62 +77,62 @@ export const siteConfig = {
   // Features/benefits
   features: [
     {
-      title: 'Optometry Expertise',
-      description: 'Specialized knowledge in optometry practice workflows and terminology',
-      icon: 'eye',
+      title: 'Licensed Professional',
+      description: 'Doctor of Optometry degree with full professional licensure',
+      icon: 'award',
     },
     {
-      title: 'HIPAA Compliant',
-      description: 'Strict adherence to healthcare privacy and security standards',
-      icon: 'lock',
+      title: 'Clinical Excellence',
+      description: '2+ years clinical experience at Executive Optical and top institutions',
+      icon: 'star',
     },
     {
-      title: 'Flexible Support',
-      description: 'Customized virtual assistance tailored to your practice needs',
-      icon: 'sliders',
+      title: 'Patient-Centered Care',
+      description: 'Dedicated to fostering deeper understanding of eye health for every patient',
+      icon: 'heart',
     },
     {
-      title: 'Cost Effective',
-      description: 'Reduce overhead while maintaining high-quality administrative support',
-      icon: 'trending-down',
+      title: 'Continuous Learning',
+      description: 'Active participation in professional seminars and optometry conventions',
+      icon: 'book-open',
     },
   ],
 
   // About content
   about: {
-    heading: 'About Dr. Sophia Gonzales',
-    subheading: 'Your Dedicated Virtual Optometry Assistant',
-    intro: "With over a decade of experience in healthcare administration and a specialized focus on optometry practices, I understand the unique challenges you face daily. My mission is to provide seamless, professional support that allows you to focus on what matters most—your patients.",
+    heading: 'About Dr. Sophia Joy Gonzales',
+    subheading: 'Licensed Optometrist & Virtual Practice Assistant',
+    intro: "I'm a licensed optometrist offering professional virtual assistant services for optometry practices. With a Doctor of Optometry degree from Manila Central University and 2+ years of clinical experience at Executive Optical, I combine clinical expertise with administrative proficiency to provide comprehensive practice support that truly understands the optometry workflow.",
     highlights: [
-      'Certified in Healthcare Administration',
-      'HIPAA Privacy & Security Specialist',
-      '10+ Years in Medical Office Management',
-      'Specialized Optometry Practice Training',
+      'Doctor of Optometry - Manila Central University (2018-2024)',
+      'Licensed Optometrist - 2+ years at Executive Optical',
+      'Administrative Experience - Bookkeeping & Practice Management',
+      'FDT Scholar & Academic Excellence Award Winner',
     ],
-    story: "After years of working in various healthcare settings, I discovered my passion for supporting optometry practices. I've seen firsthand how administrative burdens can detract from patient care. That's why I've dedicated myself to providing virtual assistance that's not just efficient, but truly understands the nuances of optometry practice management.",
+    story: "What sets me apart from typical virtual assistants is my deep understanding of optometry. I've worked at prestigious institutions including Chinese General Hospital, Vision Science Institute, and Resources for the Blind, Inc., giving me comprehensive knowledge of eye care practices. My administrative experience in bookkeeping and student guidance, combined with my clinical background, means I can handle your practice management needs with the same precision I bring to patient care.",
   },
 
   // Why choose Sophia - more personal than features
   whyChoose: [
     {
-      title: 'Optometry-Specific Expertise',
-      description: "I don't just understand general healthcare—I specialize in optometry. From insurance coding to optical terminology, I speak your language.",
+      title: 'Comprehensive Clinical Training',
+      description: "6 years of rigorous optometry education culminating in a Doctor of Optometry degree. Trained at top institutions including Chinese General Hospital and Vision Science Institute, ensuring thorough knowledge of modern eye care practices.",
       icon: 'graduation-cap',
     },
     {
-      title: 'Seamless Integration',
-      description: 'I adapt to your existing systems and workflows. Whether you use Practice Management software or prefer traditional methods, I meet you where you are.',
-      icon: 'puzzle',
+      title: 'Proven Clinical Excellence',
+      description: 'Academic distinction with Special Merit Award (2024) and FDT Scholarship recipient. Current optometrist at Executive Optical with 2+ years of hands-on patient care experience using advanced optical instruments.',
+      icon: 'award',
     },
     {
-      title: 'Reliable & Responsive',
-      description: "When you need support, I'm just a message away. Fast response times and consistent availability you can count on during business hours.",
-      icon: 'clock',
+      title: 'Problem-Solving Mindset',
+      description: "Skilled in both clinical diagnostics and practice management. My experience ranges from patient care to administrative roles, giving me a holistic understanding of efficient eye care delivery.",
+      icon: 'lightbulb',
     },
     {
-      title: 'Patient-Centered Approach',
-      description: 'Every interaction reflects your practice values. I represent your brand with professionalism and empathy in every patient communication.',
-      icon: 'heart',
+      title: 'Commitment to Service',
+      description: 'Active member and officer of professional organizations including JR. IPAO and SVOSH. Dedicated to continuous learning through regular attendance at optometry symposiums and conventions, ensuring I stay current with industry developments.',
+      icon: 'users',
     },
   ],
 
@@ -139,31 +140,31 @@ export const siteConfig = {
   testimonials: [
     {
       id: 1,
-      content: "Sophia has been a game-changer for our practice. Her attention to detail and understanding of optometry workflows freed up so much of my time. I can finally focus on patient care without worrying about administrative chaos.",
-      author: "Dr. Michael Chen",
-      role: "Optometrist, Vision Care Center",
-      location: "Seattle, WA",
+      content: "Dr. Sophia Joy Gonzales is an exceptional optometrist with strong clinical skills and excellent patient communication abilities. Her dedication to continuous learning and professional development is evident in her work. I highly recommend her services.",
+      author: "Dr. Patricia Tagara",
+      role: "Optometrist",
+      location: "Metro Manila, Philippines",
     },
     {
       id: 2,
-      content: "Working with Sophia feels like having an in-office assistant who truly understands optometry—but without the overhead costs. Her insurance verification process is flawless, saving us countless hours of back-and-forth.",
-      author: "Dr. Jennifer Martinez",
-      role: "Owner, Martinez Eye Clinic",
-      location: "Austin, TX",
+      content: "During her clinical rotation at our hospital, Dr. Gonzales demonstrated remarkable proficiency in comprehensive eye examinations and patient care. Her commitment to quality optometry services and her ability to work collaboratively make her a valuable professional in the field.",
+      author: "Chinese General Hospital",
+      role: "Clinical Training Site",
+      location: "Manila, Philippines",
     },
     {
       id: 3,
-      content: "I was skeptical about hiring a virtual assistant, but Sophia proved me wrong within the first week. She's professional, knowledgeable, and has become an invaluable part of our team. Highly recommended!",
-      author: "Dr. Robert Thompson",
-      role: "Optometrist, ClearView Optometry",
-      location: "Denver, CO",
+      content: "Dr. Gonzales contributed significantly during her internship with our organization. Her understanding of visual impairments and compassionate approach to patient education truly stood out. She brings both technical expertise and genuine care to her practice.",
+      author: "Resources for the Blind, Inc.",
+      role: "Training Institution",
+      location: "Quezon City, Philippines",
     },
     {
       id: 4,
-      content: "Sophia's patient communication skills are outstanding. Our patients consistently comment on how helpful and professional she is. She's elevated our practice's reputation while reducing my administrative burden significantly.",
-      author: "Dr. Lisa Patel",
-      role: "Owner, Patel Vision Associates",
-      location: "Phoenix, AZ",
+      content: "As part of the Executive Optical team, Dr. Gonzales consistently demonstrates professional excellence in patient care and optical services. Her proficiency with optical instruments and ability to explain complex eye health concepts to patients make her an asset to our practice.",
+      author: "Executive Optical",
+      role: "Current Employer",
+      location: "Philippines",
     },
   ],
 } as const;

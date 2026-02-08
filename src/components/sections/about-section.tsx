@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { SectionContainer } from "@/components/layout/section-container";
 import { Badge } from "@/components/ui/badge";
@@ -15,24 +16,38 @@ export function AboutSection({ className }: AboutSectionProps) {
     <SectionContainer className={className} variant="default">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Left Column - Text Content */}
-          <div className="space-y-6">
-            <div className="space-y-3">
-              <Badge variant="secondary" className="text-sm">
-                {about.subheading}
-              </Badge>
-              <h2 className="text-3xl font-bold tracking-tight text-[hsl(var(--foreground))] sm:text-4xl md:text-5xl">
-                {about.heading}
-              </h2>
+          {/* Left Column - Profile Image & Text Content */}
+          <div className="space-y-8">
+            {/* Profile Image */}
+            <div className="relative aspect-square w-full max-w-md mx-auto lg:mx-0 overflow-hidden rounded-2xl shadow-lg">
+              <Image
+                src="/profile_picture.jpg"
+                alt="Dr. Sophia Joy Gonzales"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
 
-            <p className="text-lg leading-relaxed text-[hsl(var(--muted-foreground))]">
-              {about.intro}
-            </p>
+            {/* Text Content */}
+            <div className="space-y-4">
+              <div className="space-y-3">
+                <Badge variant="secondary" className="text-sm">
+                  {about.subheading}
+                </Badge>
+                <h2 className="text-3xl font-bold tracking-tight text-[hsl(var(--foreground))] sm:text-4xl md:text-5xl">
+                  {about.heading}
+                </h2>
+              </div>
 
-            <p className="text-base leading-relaxed text-[hsl(var(--muted-foreground))]">
-              {about.story}
-            </p>
+              <p className="text-lg leading-relaxed text-[hsl(var(--muted-foreground))]">
+                {about.intro}
+              </p>
+
+              <p className="text-base leading-relaxed text-[hsl(var(--muted-foreground))]">
+                {about.story}
+              </p>
+            </div>
           </div>
 
           {/* Right Column - Highlights */}

@@ -25,8 +25,8 @@ export default function ServicesPage() {
   return (
     <PageLayout>
       <Hero
-        title="Virtual Assistant Services"
-        description="Specialized support tailored for optometry practices. From patient scheduling to billing support, I handle the administrative details so you can focus on what matters most—patient care."
+        title="Services I Provide"
+        description="Specialized virtual assistant support tailored for optometry practices. From patient scheduling to billing support, I handle the administrative details so you can focus on what matters most—patient care."
         variant="center"
       />
 

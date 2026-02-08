@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
-  keywords: ["optometry", "virtual assistant", "healthcare", "practice management", "administrative support"],
+  keywords: ["optometry", "optometrist", "eye care", "eye examination", "vision testing", "licensed optometrist", "eye health", "Manila optometry", "comprehensive eye exam", "Valenzuela City optometrist"],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   openGraph: {

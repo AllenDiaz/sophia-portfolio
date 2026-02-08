@@ -13,8 +13,8 @@ export default function Home() {
       {/* 1. Hero Section with CTA */}
       <Hero
         subtitle={siteConfig.tagline}
-        title="Professional Virtual Optometry Assistant Services"
-        description="Specialized administrative support tailored for optometry practices. Let me handle the details so you can focus on patient care."
+        title="Licensed Optometrist Specializing in Virtual Practice Support"
+        description="Leverage my clinical expertise and administrative skills to streamline your optometry practice. Professional virtual assistant services combining optometry knowledge with efficient practice management."
         primaryCTA={{
           text: "Get Started",
           href: "/contact",
@@ -41,7 +41,7 @@ export default function Home() {
       {/* 6. CTA Section */}
       <CTASection
         title="Ready to streamline your practice?"
-        description="Let's discuss how I can support your optometry practice with professional virtual assistant services."
+        description="Let's discuss how my optometry expertise can support your practice with professional virtual assistant services."
         buttonText="Get Started Today"
         buttonHref="/contact"
       />
