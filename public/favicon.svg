@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified icon for favicon -->
+  <rect width="32" height="32" rx="6" fill="#3B82F6"/>
+  
+  <!-- Simple eye -->
+  <path d="M16 11C11 11 7 15 5 16C7 17 11 21 16 21C21 21 25 17 27 16C25 15 21 11 16 11Z" 
+        stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Iris & Pupil -->
+  <circle cx="16" cy="16" r="3" fill="#06B6D4"/>
+  <circle cx="16" cy="16" r="1.5" fill="white"/>
+</svg>

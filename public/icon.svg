@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="32" fill="#3B82F6"/>
+  
+  <!-- Eye Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Outer Eye Shape -->
+    <path d="M32 22C24 22 17 28 14 32C17 36 24 42 32 42C40 42 47 36 50 32C47 28 40 22 32 22Z" 
+          stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Iris -->
+    <circle cx="32" cy="32" r="6" fill="#06B6D4" opacity="0.4"/>
+    <circle cx="32" cy="32" r="6" stroke="white" stroke-width="2" fill="none"/>
+    
+    <!-- Pupil -->
+    <circle cx="32" cy="32" r="3" fill="white"/>
+    
+    <!-- Highlight -->
+    <circle cx="34" cy="30" r="1.5" fill="#3B82F6"/>
+  </g>
+</svg>
