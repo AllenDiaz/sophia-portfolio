@@ -14,7 +14,7 @@ export default function Home() {
       <Hero
         subtitle={siteConfig.tagline}
         title="Licensed Optometrist Specializing in Virtual Practice Support"
-        description="Leverage my clinical expertise and administrative skills to streamline your optometry practice. Professional virtual assistant services combining optometry knowledge with efficient practice management."
+        description="Leverage my clinical expertise and administrative skills to streamline your optometry practice. Professional virtual assistant services combining optometry knowledge with efficient practice management—all while maintaining HIPAA compliance and protecting patient privacy."
         primaryCTA={{
           text: "Get Started",
           href: "/contact",
