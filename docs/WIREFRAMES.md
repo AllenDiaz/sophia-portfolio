@@ -264,7 +264,7 @@ Dr. Sophia Gonzales - Virtual Optometry Assistant Services
 │ │ CONTACT FORM                 │ CONTACT INFORMATION          ││
 │ │                              │                              ││
 │ │ Name* [____________]         │ 📧 Email                     ││
-│ │                              │ sophia@example.com           ││
+│ │                              │ sjgonzales.opto@gmail.com           ││
 │ │ Email* [____________]        │                              ││
 │ │                              │ 📞 Phone                     ││
 │ │ Phone [____________]         │ (555) 123-4567               ││
