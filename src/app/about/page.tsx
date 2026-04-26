@@ -30,7 +30,7 @@ export default function AboutPage() {
             <div className="lg:col-span-2">
               <div className="relative aspect-[3/4] w-full max-w-sm mx-auto overflow-hidden rounded-2xl shadow-lg">
                 <Image
-                  src="/profile_picture.jpg"
+                  src="/profile_picture.png"
                   alt="Dr. Sophia Joy Gonzales"
                   fill
                   className="object-cover"

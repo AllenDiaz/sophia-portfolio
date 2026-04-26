@@ -21,7 +21,7 @@ export function AboutSection({ className }: AboutSectionProps) {
             {/* Profile Image */}
             <div className="relative aspect-square w-full max-w-md mx-auto lg:mx-0 overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/profile_picture.jpg"
+                src="/profile_picture.png"
                 alt="Dr. Sophia Joy Gonzales"
                 fill
                 className="object-cover"
